@@ -55,7 +55,7 @@ nose-parameterized==0.6.0  # via -r etc/requirements_dev.in
 nose-timer==1.0.0         # via -r etc/requirements_dev.in
 nose==1.3.7               # via -r etc/requirements_dev.in, nose-timer
 numexpr==2.7.1            # via -r etc/requirements.in, tables
-numpy==1.19.1             # via -r etc/requirements.in, -r etc/requirements_build.in, bcolz, bottleneck, dask, datashape, empyrical, h5py, matplotlib, numexpr, odo, pandas, patsy, scipy, statsmodels, ta-lib, tables, trading-calendars
+numpy==1.22.2             # via -r etc/requirements.in, -r etc/requirements_build.in, bcolz, bottleneck, dask, datashape, empyrical, h5py, matplotlib, numexpr, odo, pandas, patsy, scipy, statsmodels, ta-lib, tables, trading-calendars
 numpydoc==1.1.0           # via -r etc/requirements_docs.in
 packaging==20.4           # via sphinx
 pandas-datareader==0.8.1  # via -r etc/requirements.in, empyrical
@@ -63,7 +63,7 @@ pandas==0.22.0            # via -r etc/requirements.in, dask, empyrical, odo, pa
 partd==1.1.0              # via dask
 pathtools==0.1.2          # via sphinx-autobuild, watchdog
 patsy==0.5.1              # via -r etc/requirements.in, statsmodels
-pillow==7.2.0             # via matplotlib
+pillow==10.0.1             # via matplotlib
 pip-tools==5.3.1          # via -r etc/requirements_dev.in
 port_for==0.3.1           # via sphinx-autobuild
 psutil==5.7.2             # via blaze
